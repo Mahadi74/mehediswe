@@ -80,9 +80,7 @@
 	.home-section .full-screen {
 		min-height: 50vh;
 	}
-	.effectgif {
-		top: 10%;
-	}
+	
 }
 
 
@@ -104,14 +102,12 @@
 
 	}
 	.contact-section .submit-btn, .home-section .home-text{
-		margin-top: 25px;
+		margin-top: 105px;
 	}
 	.effectgif {
 		position: absolute;
 		width: 100px;
-		right: 5%;
 		left: auto;
-		top: 54%;
 	}
 	.home-section .home-text{
 		order: 2;
@@ -179,6 +175,9 @@
 		left: -30px;
 		right: auto;
 	}
+	.neoph_new,.phone_gif{
+		display: none;
+	  }
 }
 
 @media(max-width: 574px){
@@ -186,6 +185,7 @@
 		max-width: 260px;
 
 	}
+	
 	.home-section .home-text h2{
 		font-size: 40px;
 	}
@@ -199,7 +199,11 @@
 	}
 }
 
-
+@media(max-width: 480px){
+	#svgGroupsplit{
+		display: none;
+	}
+}
 
 /*=======================
 	About Me CSS
@@ -377,7 +381,6 @@
 	float: left;
 	font-size: 14px;
 	margin-bottom: 12px;
-	color: #fff;
 	font-weight: 700;
 	text-transform: uppercase;
 }
