@@ -618,6 +618,7 @@ Preloader
 	 }
 #lineDrawing{
 	margin-left: 0px;
+	overflow: hidden;
 }
 .neoph_new{
 	zoom: .35;
