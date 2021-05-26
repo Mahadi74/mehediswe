@@ -82,7 +82,11 @@
 	}
 	
 }
-
+@media(max-width: 1440px){
+	.lamp {
+		zoom: .6;
+	}
+}
 
 
 @media(max-width: 767px){
@@ -100,6 +104,9 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 
+	}
+	#lineDrawing{
+		zoom: .9;
 	}
 	.contact-section .submit-btn, .home-section .home-text{
 		margin-top: 105px;
@@ -177,7 +184,19 @@
 	}
 	.neoph_new,.phone_gif{
 		display: none;
-	  }
+	}
+	#about-me .progress {
+		overflow: visible !important;	
+	}
+	#about-me .progress .progress-bar{
+		position: relative !important;
+	}
+	body{
+		margin: 8px !important;
+	}
+	.experience .timeline-item .link_time{
+		word-wrap: break-word;
+	}
 }
 
 @media(max-width: 574px){
@@ -185,7 +204,10 @@
 		max-width: 260px;
 
 	}
-	
+
+	.lamp {
+		zoom: .45;
+	}
 	.home-section .home-text h2{
 		font-size: 40px;
 	}
