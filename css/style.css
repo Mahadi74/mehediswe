@@ -1,4 +1,221 @@
+.my-path {
+  
+	stroke:#cfc33a;
+	stroke-width:4;
+}
+#Girl
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    transform-box: fill-box;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 
+}
+
+@keyframes swing {
+    0% { transform: rotate(9deg); }
+    100% { transform: rotate(-9deg); }
+}
+
+
+#Vector_38
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 0px;
+    transform-box: fill-box;
+    float:left;
+}
+
+#Vector_39{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center 0px;
+    transform-box: fill-box;
+    float:left;
+}
+
+#Vector_40
+{
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    transform-box: fill-box;
+    float:left;
+}
+
+
+.shap.one {
+    background-image: -moz-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -webkit-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -ms-linear-gradient(140deg, #009688 0%, #009688 100%);
+    width: 650px;
+    height: 510px;
+    top: -43%;
+    left: -58%;
+}
+.shap {
+    position: absolute;
+    opacity: 0.05;
+    transform: rotate(45deg);
+    left: 90px;
+    z-index: -1;
+    border-radius: 45px;
+}
+
+.shap.two {
+    background-image: -moz-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -webkit-linear-gradient(140deg, #009688 0%, #009688 100%);
+    background-image: -ms-linear-gradient(140deg, #009688 0%, #009688 100%);
+    width: 666px;
+    height: 330px;
+    top: -42%;
+    left: -15%;
+}
+.mauto{margin:auto;}
+.bg-svg{
+    
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    
+  margin-bottom:40px;
+}
+
+body{
+   background-color: #fafafa;
+}
+
+#Leaf1
+{
+    -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+            }
+
+
+#leaf11
+{
+    -webkit-animation: shake-bottom 2.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 2.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box; 
+}
+
+#leaf10
+{
+    -webkit-animation: shake-bottom 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box; 
+}
+
+#leaf12
+{
+    -webkit-animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 9s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf13
+{
+    -webkit-animation: shake-bottom 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 8s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#lef14
+{
+    -webkit-animation: shake-bottom 7.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 7.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf15
+{
+    -webkit-animation: shake-bottom 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf16
+{
+    -webkit-animation: shake-bottom 6.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 6.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+#leaf17
+{
+    -webkit-animation: shake-bottom 6s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+          animation: shake-bottom 6s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+            transform-box: fill-box;
+}
+
+@-webkit-keyframes shake-bottom {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes shake-bottom {
+  0%,
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+  10% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  80% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  90% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
 /* ------------
 Fonts
 ---------------*/
@@ -16,6 +233,9 @@ Global style
     height: 400px;
     z-index: -1;
 	margin-top: 50px;
+}
+#about-me .skill-info h4{
+	color: var(--text-black-900);
 }
 #gameArea{
   display: none;
@@ -84,8 +304,6 @@ body.dark{
 body{
 	font-size: 16px;
 	line-height: 1.5;
-	overflow-x: hidden;
-	/*overflow-y: hidden;*/
 	background-color: var(--bg-black-50);
 }
 body.hidden-scrolling{
@@ -146,6 +364,7 @@ img{
 	justify-content: center;
     align-items: center;
     margin-right: -130px;
+	margin-top: 10px;
 }
 .copyright-text{
 	display: none;
@@ -353,14 +572,55 @@ Preloader
 }
 .effectgif{
 	position: absolute;
-    width: 100px;
-    right: 22%;
-    top: 25%;
+    width: 120px;
+    right: -8%;
+    top: -25%;
+}
+.my-path {
+	fill:none;
+	stroke:var(--text-black-900);
+	stroke-width:4;
+}
+    /* Google chrome */
+	@-webkit-keyframes svg-text-anim {
+		40% {
+		   stroke-dashoffset: 0;
+		   fill: transparent;
+		 }
+		 60% {
+		   stroke-dashoffset: 0;
+		   fill: var(--text-black-900);
+		 }
+		 100% {
+		   stroke-dashoffset: 0;
+		   fill: var(--text-black-900);
+		 }
+		 
+	 }
+	 /* Most browsers */
+	 @keyframes svg-text-anim {
+		40% {
+		   stroke-dashoffset: 0;
+		   fill: transparent;
+		 }
+		 60% {
+		   stroke-dashoffset: 0;
+		   fill: var(--text-black-900);
+		 }
+		 100% {
+		   stroke-dashoffset: 0;
+		   fill: var(--text-black-900);
+		 }
+		 
+	 }
+#lineDrawing{
+	margin-left: 0px;
 }
 .neoph_new{
 	zoom: .5;
     position: absolute;
     right: 18rem;
+	z-index: -1;
 }
 .loader	{
 	position: absolute;
@@ -769,13 +1029,17 @@ canvas{
 	/*background-color: blue;*/
 	padding: 50px 0;
 	min-height: 95vh;
-	flex-direction: row-reverse;
+	/* flex-direction: row-reverse; */
+	display: flex;
 }
 .home-section .home-text,
 .home-section .home-img{
-	flex: 0 0 50%;
-	max-width: 50%;
+	/* flex: 0 0 50%;
+	max-width: 50%; */
 	padding: 0 15px;
+	margin-left: auto;
+    margin-right: auto;
+	position: relative;
 }
 .home-section .home-text p{
 	color: var(--text-black-300);
@@ -1545,7 +1809,29 @@ contact section
 .contact-section{
 	/*background-color: red;*/
 	padding: 80px 0 80px;
-	min-height: 100vh;
+	/* min-height: 100vh; */
+}
+.footer-text{
+	text-align: center;
+}
+.footer-section .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: var(--text-black-600);
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.footer-section p{
+	padding: 20px 0px;
+	color: var(--text-black-600);
+}
+.footer-section p a{
+	color: var(--skin-color);
 }
 .contact-section .contact-item{
 	flex: 0 0 33.33%;
