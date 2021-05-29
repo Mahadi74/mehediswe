@@ -90,6 +90,9 @@
 
 
 @media(max-width: 767px){
+	.wrap_ani {
+		zoom: .5;
+	 }
 	.contact-section .w-50,
 	.contact-section .contact-item,
 	.portfolio-popup .description,
@@ -204,7 +207,10 @@
 		max-width: 260px;
 
 	}
-
+     
+  .wrap_ani {
+     zoom: .5;
+  }
 	.lamp {
 		zoom: .45;
 	}
