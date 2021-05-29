@@ -52,7 +52,6 @@
     transform-style: preserve-3d;
     perspective: 5000px;
     animation: rotate 14s infinite linear;
-    overflow: hidden;
   }
   
   @keyframes rotate {
