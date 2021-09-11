@@ -52,7 +52,7 @@ Game_Singleton.prototype.initMenus = function(inGame){
 }
 
 Game_Singleton.prototype.loadSprite = function (imageName) {
-    console.log("Loading sprite: " + imageName);
+//     console.log("Loading sprite: " + imageName);
     var image = new Image();
     image.src = imageName;
     this.spritesStillLoading += 1;
