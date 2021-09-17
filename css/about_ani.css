@@ -1,11 +1,49 @@
 /*just code for fun*/
-.box{
-background: #454545;
-width: 100%;
-height: 100%;
-position: fixed;
-z-index: 111;
-margin: -8px;	
+.loading__body ul{
+  position: absolute;
+  top: 50%;  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.loading__body ul li{
+  list-style: none;
+  position: absolute;
+  top: 50%;  left: 50%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+  border: 20px solid #262626;
+  border-radius: 20px;
+  animation: animate 4s infinite linear;
+}
+.loading__body ul li::before,.loading__body ul li::after{
+  content: '';
+  position: absolute;
+  width: 20px;  height: 40%;
+  background: #0bd5e8;
+}
+.loading__body ul li::before{
+  top: -20px;  left: -20px;
+}
+.loading__body ul li::after{
+  bottom: -20px;   right: -20px;
+}
+.loading__body ul li:nth-of-type(1){
+  width: 100px;  height: 100px;
+}
+.loading__body ul li:nth-of-type(2){
+  width: 200px;  height: 200px;
+  animation-duration: 2.8s;
+}
+.loading__body ul li:nth-of-type(3){
+  width: 300px;  height: 300px;
+  animation-duration: 2s;
+}
+@keyframes animate{
+  0%{
+      transform: translate(-50%,-50%) perspective(1000px) rotateY(0deg); 
+  }
+  100%{
+      transform: translate(-50%,-50%) perspective(1000px) rotateY(360deg); 
+  }
 }
 #totalbase{
 	position: realtive;
